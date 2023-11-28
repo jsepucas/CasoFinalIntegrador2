@@ -3,7 +3,7 @@
 
 int main() {
     Variant v;
-    v.parse_json("{\"name\":\"Juan\",\"age\":20}");
+    v.parse_json("{\"name\":\"Juan\",\"age\":29}");
     std::cout << v.to_json_string() << std::endl;
     return 0;
 }
