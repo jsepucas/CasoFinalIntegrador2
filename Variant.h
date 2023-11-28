@@ -9,6 +9,10 @@
 
 
 class Variant {
+public:
+    using ProcType = std::function<Variant(const std::vector<Variant>&)>;
+private:
+    std::variant<int, float, std::string, std::vector<Variant>, ProcType> value;
 
 };
 
