@@ -1,3 +1,9 @@
 #include "Variant.h"
 
-Variant::Variant() : value(0) {}
+Variant::Variant() {
+
+}
+
+std::string Variant::to_string() const{
+
+}
